@@ -16,10 +16,8 @@ fetch('https://randomuser.me/api')
   .catch((error) => console.error("FETCH ERROR:", error));
 
 function cargarDatos(data) {
-  const datos = data.results[0];
-  //const datosDiv = document.getElementsByClassName("nombre");
-  const nombre = "" + datos.name.first + " " + datos.name.last;
-  //console.log(nombre);
+  const datos = data.results[0];  
+  const nombre = "" + datos.name.first + " " + datos.name.last;  
   document.getElementById('nombre').innerHTML = nombre;
   const fotoPerfil = document.getElementById('img-perfil');
   fotoPerfil.setAttribute("src", "" + datos.picture.large + "");
