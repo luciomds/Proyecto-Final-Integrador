@@ -1,0 +1,112 @@
+body {
+    background-color: rgba(100, 100, 100, 0.3);
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.6) 1px 0 2px;
+    font-family: 'Cabin', sans-serif;
+    font-size: large;
+    
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+#img-perfil {    
+    margin: 0px auto;
+    border-radius: 80px;   
+    box-shadow: 5px 5px 5px;    
+}
+
+.perfil {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.barra-navegacion {
+    background-color: rgb(51, 79, 220);
+    border-radius: 2px;     
+    margin-top: 10%;
+    margin-bottom: 5.05%;    
+    width: 60px;
+    
+}
+
+.barra-navegacion img{
+    float: left;      
+    width: 35px;
+    margin-top: 50%;    
+    border-radius: 50%;    
+    box-shadow: 0px 10px 10px black;
+}
+
+.barra-navegacion img:hover{
+    width: 42px;    
+    border-radius: 15px;    
+    box-shadow: 0px 10px 30px rgb(63, 11, 83);
+}
+
+.col-10 {    
+    border-radius: 4px;    
+    box-shadow: 0px 25px 40px black;
+    background-color: white;
+    box-sizing: content-box;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.separador {    
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    border: 0.5px solid black;
+}
+
+.mis-redes {
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h3 {
+    color: rgb(21, 14, 158);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h5 {
+    color: rgba(17, 11, 128);
+}
+
+h6 {
+    text-align: left;
+    font-size-adjust: inherit;
+    padding-top: 50%;
+    font-size: 12px;
+}
+
+.botonera {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.botonera img {
+    width: 50px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 25%;    
+    box-shadow: 0px 5px 10px black;
+}
+
+.botonera img:hover{
+    width: 75px;;
+}
+
+footer {
+    margin: 0 auto;
+}
