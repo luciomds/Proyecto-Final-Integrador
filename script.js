@@ -27,37 +27,37 @@ function cargarDatos(data) {
 
 document.getElementById('direccion').addEventListener('mouseover',
   function () {
-    document.getElementById('direccion').setAttribute("src", "" + "../Proyecto Final Integrador/node_modules/bootstrap-icons/icons/pin-map-fill.svg" + "");
+    document.getElementById('direccion').setAttribute("src", "" + "node_modules/bootstrap-icons/icons/pin-map-fill.svg" + "");
   }
 );
 
 document.getElementById('direccion').addEventListener('mouseleave',
   function () {
-    document.getElementById('direccion').setAttribute("src", "" + "../Proyecto Final Integrador/node_modules/bootstrap-icons/icons/pin-map.svg" + "");
+    document.getElementById('direccion').setAttribute("src", "" + "node_modules/bootstrap-icons/icons/pin-map.svg" + "");
   }
 );
 
 document.getElementById('mail').addEventListener('mouseover',
   function () {
-    document.getElementById('mail').setAttribute("src", "" + "../Proyecto Final Integrador/node_modules/bootstrap-icons/icons/envelope-paper-fill.svg" + "");
+    document.getElementById('mail').setAttribute("src", "" + "node_modules/bootstrap-icons/icons/envelope-paper-fill.svg" + "");
   }
 );
 
 document.getElementById('mail').addEventListener('mouseleave',
   function () {
-    document.getElementById('mail').setAttribute("src", "" + "../Proyecto Final Integrador/node_modules/bootstrap-icons/icons/envelope-paper.svg" + "");
+    document.getElementById('mail').setAttribute("src", "" + "node_modules/bootstrap-icons/icons/envelope-paper.svg" + "");
   }
 );
 
 document.getElementById('telefono').addEventListener('mouseover',
   function () {
-    document.getElementById('telefono').setAttribute("src", "" + "../Proyecto Final Integrador/node_modules/bootstrap-icons/icons/phone-fill.svg" + "");
+    document.getElementById('telefono').setAttribute("src", "" + "node_modules/bootstrap-icons/icons/phone-fill.svg" + "");
   }
 );
 
 document.getElementById('telefono').addEventListener('mouseleave',
   function () {
-    document.getElementById('telefono').setAttribute("src", "" + "../Proyecto Final Integrador/node_modules/bootstrap-icons/icons/phone.svg" + "");
+    document.getElementById('telefono').setAttribute("src", "" + "node_modules/bootstrap-icons/icons/phone.svg" + "");
   }
 );
 
